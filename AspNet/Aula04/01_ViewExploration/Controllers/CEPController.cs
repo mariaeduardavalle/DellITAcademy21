@@ -24,10 +24,10 @@ public class CEPController : Controller{
     }
 
     [HttpPost]
-    public IActionResult Cadastra(CEPViewModel CEP){
+    public IActionResult Cadastra(CEPViewModel cadastro){
 
         if(ModelState.IsValid)
-            CEPServices.CadastrarCEP(CEP);
+            CEPServices.CadastrarCEP(cadastro);
 
         return View("ListaCEPObj", CEPServices.listaCEPs());
     }

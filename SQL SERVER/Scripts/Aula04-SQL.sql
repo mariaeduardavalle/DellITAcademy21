@@ -78,6 +78,19 @@ where T.ddd = 51;
  where E.uf IN ('RS', 'SP', 'PE') and C.nome like 'Santa%'
  order by C.nome desc;
 
+ --5
+select distinct A.nome, estados.regiao
+from autores A join autores_produtos AP
+on A.cod_autor = AP.cod_autor
+join produtos P on AP.cod_produto = p.cod_produto
+join pedidos_produtos PP on P.cod_produto = PP.cod_produto
+join pedidos PE on PE.num_pedido = PP.num_pedido
+join enderecos E on E.cod_endereco = PE.cod_endereco
+join cidades C on C.cod_cidade = E.cod_cidade
+join estados on estados.uf = C.uf
+where regiao = 'N'
+ORDER BY A.nome;
+
 
  -----------------------------------------------------------------------------
  -- VIEW
@@ -182,6 +195,90 @@ select tipo, avg(preco) as media
 from prods 
 group by tipo;
 
+ALTER TABLE PRODS ADD usuario numeric(1) NULL;
+
+UPDATE PRODS
+SET usuario = 1
+WHERE codigo IN (10,12,13,14);
+
+UPDATE PRODS
+SET usuario = 2
+WHERE usuario IS NULL;
+
+SELECT tipo, usuario, AVG(preco)
+FROM PRODS
+GROUP BY tipo, usuario
+ORDER BY tipo, usuario;
+
+UPDATE PRODS
+SET usuario = 2
+WHERE codigo = 14;-- Deixando um produto sem usuario associado
+UPDATE PRODS 
+SET usuario = NULL
+WHERE codigo = 13;
+
+-- Executando novamente
+SELECT tipo, usuario, AVG(preco)
+FROM PRODS
+GROUP BY tipo, usuario
+ORDER BY tipo, usuario;
+
 -----------------------------------------------
+-- QUANTAS CIDADES EXISTEM EM CADA ESTADO?select C.uf, count(*) as qtdfrom cidades C group by C.uforder by qtd desc;-- RANKING DOS TELEFONES POR REGIÃOselect ddd, count(*) as qtdregiaofrom telefonesgroup by dddorder by qtdregiao;
+
+-----------------------------------------------
+-- Having
+
+SELECT CID.nome, COUNT(*) as QTD
+FROM CIDADES CID join ENDERECOS E
+on CID.cod_cidade = E.cod_cidade
+GROUP BY CID.nome
+HAVING COUNT(*) > 1;
 
 
+---------------------------------------------------
+
+-- Criação das tabelas
+CREATE TABLE TR
+(
+	 A numeric(2),
+	 B numeric(2),
+	 CONSTRAINT PK_TRA PRIMARY KEY(A)
+);
+CREATE TABLE TS
+(
+	 B numeric(2),
+	 C numeric(2),
+	 D numeric(2),
+	 CONSTRAINT PK_TSB PRIMARY KEY(B)
+);
+
+INSERT INTO TR (A,B) VALUES (1,2);
+INSERT INTO TR (A,B) VALUES (3,4);
+INSERT INTO TS (B,C,D) VALUES (2,5,6);
+INSERT INTO TS (B,C,D) VALUES (4,7,8);
+INSERT INTO TS (B,C,D) VALUES (9,10,11);
+
+-- Verificação dos conteúdos
+SELECT * FROM TR;
+SELECT * FROM TS;-- Acrescentar:
+INSERT INTO TR (A,B) VALUES (9,NULL);
+INSERT INTO TS (B,C,D) VALUES (15, NULL, NULL);
+-- Depois remover:
+DELETE FROM TR WHERE A=9;
+DELETE FROM TS WHERE B=15;
+
+-- Produto Cartesiano
+SELECT * from TR,TS;
+SELECT * from TR,TS WHERE TR.B IS NOT NULL;
+
+-- Mais elaborado:
+SELECT * FROM TR,TS WHERE TR.B = TS.B;
+
+-- Junções
+SELECT * from TR JOIN TS ON (TR.B = TS.B);
+SELECT * from TR LEFT JOIN TS ON (TR.B = TS.B);
+SELECT * from TR RIGHT JOIN TS ON (TR.B = TS.B);
+SELECT * from TR FULL OUTER JOIN TS ON (TR.B = TS.B);
+
+

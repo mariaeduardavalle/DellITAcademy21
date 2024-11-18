@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScaffoldingLojaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fab4b165ce34f65a335dbefe5e6fe4f2c07d57b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e46194e59fdb78446bd99906b0ba6da20b63a5fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScaffoldingLojaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScaffoldingLojaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

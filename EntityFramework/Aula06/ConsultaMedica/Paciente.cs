@@ -7,5 +7,6 @@ public class Paciente{
     public int CPF { get; set; }
 
     public DateTime DataNascimento { get; set; } 
+    public List<Consulta> Consultas { get; set; } = new List<Consulta>();
 
 }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE</title>
+</head>
+<body>
+    <section>
+        <hgroup>
+        <h1>HTML5</h1>
+        <h3>Structuring a Web
+        page</h3>
+        </hgroup>
+        <article>
+        <p>With semantic tags, 
+        structuring a web page is 
+        easier than ever before!</p>
+        </article>
+        <nav>
+            <a href="/html/">HTML</a>
+            <a href="/css/">CSS</a>
+            <a href=”/javascript/">JavaScript</a>
+            </nav>            
+    </section>
+    <caption>Number of hours worked on thesis.</caption>
+        <table border="1">
+            <tr>
+                <th>Month</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>April</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>June</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>120</td>
+            </tr>
+        </table>
+
+        <h3>Favorite Foods</h3>
+        <ol>
+            <li>Pizza</li>
+            <li>Cake</li>
+        </ol>
+        <h3>Seattle To-Do List</h3>
+        <ul>
+            <li>Visit Space Needle</li>
+            <li>Buy rain jacket</li>
+        </ul>    
+
+        <form id="contact" method="post" action="">
+            <label for=“firstName">First Name</label>
+            <input type="text" name=“firstName" /><br/>
+            <label for=“lastName">Last Name</label>
+            <input type="text" name=“lastName" /><br/>
+            <label for="email">Email</label>
+            <input type="email" name="email" /><br/>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password"/><br/>
+            <input type="submit" name="submit" value="submit">
+        </form>
+
+        <h1>Get today's date and add it to an element on the page.</h1>
+ 
+        <p id="demo"></p>
+        
+        <script type="text/javascript">
+        document.getElementById("demo").innerHTML=Date();
+        </script>            
+            
+        
+</body>
+</html>

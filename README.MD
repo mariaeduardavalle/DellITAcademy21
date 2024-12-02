@@ -26,20 +26,6 @@ O objetivo deste repositório é fornecer acesso fácil e organizado a todos os 
 - **projetos/** - Projetos desenvolvidos ao longo do curso;
 - **documentacao/** - Documentação de suporte, incluindo tutoriais e guias;
 - **referencias/** - Links e materiais adicionais para aprofundamento.
-
 ---
 
-## 🔗 Como Contribuir
-
-Contribuições são sempre bem-vindas! Se você quiser ajudar:
-
-1. Faça um fork deste repositório;
-2. Crie uma nova branch: `git checkout -b feature/NomeDaFeature`;
-3. Faça as alterações necessárias e adicione commits: `git commit -m "Descrição das alterações"`;
-4. Envie um pull request para revisão.
-
----
-
-> Este repositório faz parte do programa **Dell IT Academy 21**, promovendo o aprendizado e o crescimento profissional na área de tecnologia.  
-Desenvolvido com ❤️ pela comunidade.
-
+> Este repositório faz parte do programa **Dell IT Academy 21**, promovendo o aprendizado e o crescimento profissional na área de tecnologia.

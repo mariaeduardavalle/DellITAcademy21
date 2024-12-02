@@ -1,0 +1,9 @@
+<h1> Bee 1000</h1>
+
+<form (ngSubmit)="onSubmit()"> 
+  <label for="a">Digite um número para A: </label>
+  <input type="text" id="a" [(ngModel)]="a" name="a">
+  <label for="b">Digite um número para B: </label>
+  <input type="text" id="b" [(ngModel)]="b" name="b">
+  <button type="submit" (ngSubmit)="calculate()">Calcular </button>
+</form>

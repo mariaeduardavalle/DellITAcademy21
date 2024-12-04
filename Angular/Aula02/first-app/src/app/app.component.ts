@@ -11,6 +11,7 @@ import {RouterModule} from '@angular/router';
       <a [routerLink]="['/']">
         <header class="brand-name">
           <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true" />
+          <h2>⌂ Homes</h2>
         </header>
       </a>
       <section class="content">
@@ -19,7 +20,7 @@ import {RouterModule} from '@angular/router';
     </main>
   `,
   styleUrls: ['./app.component.css'],
-  imports: [HomeComponent]
+  imports: [HomeComponent, RouterModule]
 })
 export class AppComponent {
   title = 'homes';

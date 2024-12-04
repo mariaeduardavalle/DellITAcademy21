@@ -6,7 +6,7 @@ import {HousingLocation} from './housinglocation';
 })
 export class HousingService {
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
-  housingLocationList: HousingLocation[] = [
+  protected housingLocationList: HousingLocation[] = [
     {
       id: 0,
       name: 'Acme Fresh Start Housing',
@@ -117,4 +117,10 @@ export class HousingService {
   }
 
   constructor() { }
+
+  submitApplication(firstName: string, lastName: string, email: string) {
+    console.log(
+      `Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`,
+    );
+  }
 }

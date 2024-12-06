@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="895a8516-3e94-4404-83f9-4a308f01d7a6" name="MariaEduarda_Santos@W-DBYNSW3 2024-12-05 15:09:05" runUser="AMERICAS\MariaEduarda_Santos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-12-05T15:09:05.8744762-03:00" queuing="2024-12-05T15:09:05.8744774-03:00" start="2024-12-05T15:08:28.0474789-03:00" finish="2024-12-05T15:09:05.8877610-03:00" />
+  <TestSettings name="default" id="14e2b604-0cdf-438d-b129-669595057ba3">
+    <Deployment runDeploymentRoot="MariaEduarda_Santos_W-DBYNSW3_2024-12-05_15_09_05" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="85b16536-01e0-412c-a865-b846cfaa4191" testId="3356fe2a-2529-2cce-5ad1-f8fe6909c845" testName="SeleniumTests.GoogleSearchTest" computerName="W-DBYNSW3" duration="00:00:35.7729902" startTime="2024-12-05T15:09:05.6255106-03:00" endTime="2024-12-05T15:09:05.6255892-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85b16536-01e0-412c-a865-b846cfaa4191" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SeleniumTests.GoogleSearchTest" storage="c:\aulasdell\dellitacademy21\testes\lab3\seleniumreportxunittest\bin\debug\net8.0\seleniumreportxunittest.dll" id="3356fe2a-2529-2cce-5ad1-f8fe6909c845">
+      <Execution id="85b16536-01e0-412c-a865-b846cfaa4191" />
+      <TestMethod codeBase="C:\AulasDell\DellITAcademy21\Testes\lab3\SeleniumReportXunitTest\bin\Debug\net8.0\SeleniumReportXunitTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="SeleniumTests" name="GoogleSearchTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3356fe2a-2529-2cce-5ad1-f8fe6909c845" executionId="85b16536-01e0-412c-a865-b846cfaa4191" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.11)&#xD;
+[xUnit.net 00:00:00.22]   Discovering: SeleniumReportXunitTest&#xD;
+[xUnit.net 00:00:00.30]   Discovered:  SeleniumReportXunitTest&#xD;
+[xUnit.net 00:00:00.31]   Starting:    SeleniumReportXunitTest&#xD;
+Starting ChromeDriver 131.0.6778.87 (ce31cae9487357cfd3bd62984ed5250121a71a23-refs/branch-heads/6778@{#2287}) on port 54317&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 54317.&#xD;
+[xUnit.net 00:00:36.19]   Finished:    SeleniumReportXunitTest&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

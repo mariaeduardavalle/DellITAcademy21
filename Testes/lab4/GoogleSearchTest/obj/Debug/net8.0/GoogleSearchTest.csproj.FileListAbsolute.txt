@@ -1,0 +1,6 @@
+C:\AulasDell\DellITAcademy21\Testes\lab4\GoogleSearchTest\obj\Debug\net8.0\GoogleSearchTest.csproj.AssemblyReference.cache
+C:\AulasDell\DellITAcademy21\Testes\lab4\GoogleSearchTest\obj\Debug\net8.0\GoogleSearchTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\AulasDell\DellITAcademy21\Testes\lab4\GoogleSearchTest\obj\Debug\net8.0\GoogleSearchTest.AssemblyInfoInputs.cache
+C:\AulasDell\DellITAcademy21\Testes\lab4\GoogleSearchTest\obj\Debug\net8.0\GoogleSearchTest.AssemblyInfo.cs
+C:\AulasDell\DellITAcademy21\Testes\lab4\GoogleSearchTest\obj\Debug\net8.0\GoogleSearchTest.csproj.CoreCompileInputs.cache
+C:\AulasDell\DellITAcademy21\Testes\lab4\GoogleSearchTest\obj\Debug\net8.0\GoogleSearchTest.sourcelink.json

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/tvPuuhAGu0=",
+  "success": true,
+  "projectFilePath": "C:\\AulasDell\\DellITAcademy21\\Testes\\lab4\\GoogleSearchTest\\GoogleSearchTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MariaEduarda_Santos\\.nuget\\packages\\selenium.webdriver\\4.27.0\\selenium.webdriver.4.27.0.nupkg.sha512",
+    "C:\\Users\\MariaEduarda_Santos\\.nuget\\packages\\selenium.webdriver.chromedriver\\131.0.6778.8700\\selenium.webdriver.chromedriver.131.0.6778.8700.nupkg.sha512"
+  ],
+  "logs": []
+}

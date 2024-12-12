@@ -4007,11 +4007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MariaEduarda_Santos\\OneDrive - Dell Technologies\\Documents\\AulasDell\\DellITAcademy21\\EntityFramework\\Aula04\\LojaApp\\LojaApp.csproj",
+      "projectUniqueName": "C:\\AulasDell\\DellITAcademy21\\EntityFramework\\Aula04e05\\LojaApp\\LojaApp.csproj",
       "projectName": "LojaApp",
-      "projectPath": "C:\\Users\\MariaEduarda_Santos\\OneDrive - Dell Technologies\\Documents\\AulasDell\\DellITAcademy21\\EntityFramework\\Aula04\\LojaApp\\LojaApp.csproj",
+      "projectPath": "C:\\AulasDell\\DellITAcademy21\\EntityFramework\\Aula04e05\\LojaApp\\LojaApp.csproj",
       "packagesPath": "C:\\Users\\MariaEduarda_Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MariaEduarda_Santos\\OneDrive - Dell Technologies\\Documents\\AulasDell\\DellITAcademy21\\EntityFramework\\Aula04\\LojaApp\\obj\\",
+      "outputPath": "C:\\AulasDell\\DellITAcademy21\\EntityFramework\\Aula04e05\\LojaApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MariaEduarda_Santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4074,7 +4074,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
